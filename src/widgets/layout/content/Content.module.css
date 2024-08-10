@@ -1,0 +1,9 @@
+.Section {
+	display: flex;
+	justify-content: center;
+	height: 998px;
+	width: 100%;
+	gap: 65px;
+	padding: 65px 70px 70px 70px;
+	box-sizing: border-box;
+}

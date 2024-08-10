@@ -1,0 +1,118 @@
+.Table {
+	border-radius: 30px;
+	width: 100%;
+	overflow: hidden;
+	border-collapse: collapse;
+}
+
+.tr {
+	height: 1px;
+}
+
+.td,
+.th {
+	padding: 0;
+	height: inherit;
+	background-color: #fff;
+	border: 1px solid rgba(55, 55, 55, 0.05);
+}
+
+.Reset {
+	width: 25px;
+	height: 25px;
+	padding: 10px;
+	box-sizing: content-box;
+	border-radius: 40px;
+}
+
+.Reset:hover {
+	background-color: #eaeaea;
+}
+
+.FirstColumn {
+	width: 186px;
+	text-align: left;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+	color: rgba(55, 55, 55, 0.5);
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bold;
+	padding: 29px 0 29px 50px;
+	box-sizing: border-box;
+}
+
+.FirstRow {
+	width: 95px;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 300;
+	color: var(--main-color);
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+	box-sizing: border-box;
+	text-transform: uppercase;
+}
+
+.FirstRow:hover {
+	cursor: pointer;
+}
+
+.Day {
+	margin: 8px 17px;
+	width: 60px;
+	height: 60px;
+	line-height: 64px;
+	border-radius: 30px;
+}
+
+:global(.selected) {
+	background-color: var(--main-color);
+	color: #fff;
+	font-weight: 700;
+}
+
+.Flippable {
+	height: 100%;
+	width: 100%;
+}
+
+.Inner {
+	height: 100%;
+	width: 100%;
+}
+
+.Front {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.ClosedCell {
+	height: 100%;
+	background-color: #edf0f6;
+}
+
+.ClosedCell:hover {
+	background-color: #e7e9ee;
+	cursor: pointer;
+}
+
+.Back {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.Back:hover {
+	background-color: #fafafa;
+	cursor: pointer;
+}
+
+.ClosedCell > img,
+.Back > img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}

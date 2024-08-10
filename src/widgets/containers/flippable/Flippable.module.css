@@ -1,0 +1,26 @@
+.Flippable {
+	perspective: 1000px;
+}
+
+.Inner {
+	transition: transform 1s;
+	transform-style: preserve-3d;
+}
+
+:global(.active),
+.Back {
+	transform: rotateY(180deg);
+}
+
+.Front,
+.Back {
+	backface-visibility: hidden;
+}
+
+.Arrow {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: -27px;
+	margin: auto;
+}

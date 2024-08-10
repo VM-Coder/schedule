@@ -1,0 +1,79 @@
+.Sequence {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Activities {
+	display: flex;
+	width: 780px;
+	height: fit-content;
+	gap: 33px;
+	font-size: 22px;
+	color: black;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+	line-height: 22px;
+	text-align: left;
+}
+
+.Title,
+.Extra {
+	margin: 0;
+	font-weight: 400;
+	text-wrap: nowrap;
+}
+
+.Extra {
+	opacity: 50%;
+}
+
+.OrderedList {
+	list-style-type: lower-alpha;
+	list-style-position: inside;
+	padding-left: 0;
+	margin: 0;
+	min-height: 22px;
+}
+
+.ListItem {
+	opacity: 50%;
+	margin-top: 18px;
+}
+
+:global(.horizontal) {
+	margin-top: 16px;
+}
+
+:global(.horizontal) > li {
+	margin: 0 14px 0 0;
+	float: left;
+}
+
+.Activity {
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.ActivityList {
+	margin: 0 20px;
+}
+
+.Timestamps {
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+}
+
+.Timestamp {
+	margin: 0;
+	font-size: 24px;
+	line-height: 24px;
+	color: rgba(55, 55, 55, 0.5);
+	font-weight: 100;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.Arrow {
+	position: absolute;
+}

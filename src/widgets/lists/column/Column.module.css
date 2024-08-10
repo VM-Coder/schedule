@@ -1,0 +1,37 @@
+.Column {
+	flex: 1;
+}
+
+.Activities {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	gap: 20px;
+	font-size: 22px;
+	color: black;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+	line-height: 22px;
+	text-align: left;
+}
+
+.Activity {
+	position: absolute;
+	height: fit-content;
+	width: fit-content;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.Title,
+.Extra {
+	margin: 0;
+	font-weight: 400;
+	text-wrap: nowrap;
+}
+
+.Extra {
+	opacity: 50%;
+}
